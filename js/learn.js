@@ -1,13 +1,14 @@
 function hideCookieBlock(idtohide)
 { 
 	var data2 = new Date();
- 		data2 = data2.getFullYear + 1;
-	
+ 		data2 = data2.getFullYear() + 1;
+	document.cookie = "visited=yes; expires=Fri, 16 Oct " + data2 + " 17:29:52 UTC";
 	document.getElementById(idtohide).style.visibility = "hidden";
+
 	
-	document.cookie = "visited=yes; expires= Fri, Oct 16 " + data2 + " 17:29:52 UTC ";
+	
     //alert(data);
-	document.getElementById("test").innerHTML = document.cookie;
+	//cument.getElementById("test").innerHTML = document.cookie;
 	
 }
 
