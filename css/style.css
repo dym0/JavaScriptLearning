@@ -1,0 +1,21 @@
+#cookieBox
+  {
+    margin: auto auto;
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;  
+    padding-top: 10px; 
+    position: absolute;
+    bottom:0;
+    
+  }
+
+  #mybtn
+  {
+    color: #000000;
+
+  }
